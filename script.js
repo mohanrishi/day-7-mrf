@@ -49,13 +49,6 @@ getApi3.onload=()=>{
     console.log(`total value of population is "${totally}" `);
 }
 
-// 5.Print the country that uses US dollars as currency.
-let getApi4 = new XMLHttpRequest();
-getApi4.open("GET","https://restcountries.com/v3.1/all",true);
-getApi4.send();
-getApi4.onload=()=>{
-    let getDataa4=getApi4.response
-    let parcedDataa4 =JSON.parse(getDataa4)
-   // let dollarFilt=parcedDataa4.filter((elem)=>elem.currencies==)
-}
-//spelling :- currencies , USD , 'United States dollar'
+
+
+
